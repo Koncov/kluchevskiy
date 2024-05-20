@@ -84,3 +84,50 @@ body {
 .btn-outline:hover {
     border-color: #1782CF;
 }
+
+/** Portfolio **/
+
+.portfolo {
+    padding: 80px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 65px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: opacity 0.3s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.project-title {
+    font-size: 22px;
+}
+
+.project-title a {
+    color: #000000;
+    text-decoration: underline;
+
+    &:visited {
+        color: #000000;
+    }
+}
