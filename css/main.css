@@ -8,10 +8,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
+
+    padding-bottom: 400px;
 }
 
 .container {
-    width: 980px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -130,4 +133,48 @@ body {
     &:visited {
         color: #000000;
     }
+}
+
+/** Contacts **/
+
+/* Contacts */
+
+.contacts {
+    padding: 80px 0;
+    border-top-left-radius: 100px;
+    background-color: #252525;
+    color: #fff;
+}
+
+.contacts-title {
+    margin-bottom: 65px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.messangers {
+    display: flex;
+    column-gap: 30px;
+}
+
+.messanger {
+    flex-grow: 1;
+
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+
+    padding: 46px 20px;
+    border-radius: 20px;
+    border: 1px solid #363636;
+
+    color: #fff;
+    font-size: 20px;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.messanger:hover {
+    background-color: #1E1E1E;
 }
