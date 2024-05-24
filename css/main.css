@@ -8,9 +8,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
-
-    padding-bottom: 400px;
 }
 
 .container {
@@ -116,10 +113,10 @@ body {
     margin-bottom: 30px;
     border-radius: 30px;
     transition: opacity 0.3s ease-in;
+}
 
-    &:hover {
-        opacity: 0.8;
-    }
+.project-img:hover {
+    opacity: 0.8;
 }
 
 .project-title {
@@ -129,15 +126,13 @@ body {
 .project-title a {
     color: #000000;
     text-decoration: underline;
+}
 
-    &:visited {
-        color: #000000;
-    }
+.project-title a:visited {
+    color: #000000;
 }
 
 /** Contacts **/
-
-/* Contacts */
 
 .contacts {
     padding: 80px 0;
@@ -160,21 +155,40 @@ body {
 
 .messanger {
     flex-grow: 1;
-
     display: flex;
     column-gap: 15px;
     align-items: center;
-
     padding: 46px 20px;
     border-radius: 20px;
     border: 1px solid #363636;
-
     color: #fff;
     font-size: 20px;
-
     transition: background-color 0.2s ease-in;
 }
 
 .messanger:hover {
     background-color: #1E1E1E;
+}
+
+/**  Footer  **/
+
+.footer {
+    padding: 30px;
+    background-color: #1E1E1E;
+    color: #5D5D5D;
+}
+
+.footer a {
+    color: #5886A8;
+}
+
+
+.footer-inner {
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.footer-inner p+p {
+    margin: 15px;
 }
