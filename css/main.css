@@ -3,6 +3,10 @@
 
 /** Base **/
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
